@@ -17,7 +17,7 @@ Last Update: 25/10/18
 import numpy as np
 from skimage import io
 import os
-from cv2 import resize
+from skimage.transform import resize
 from sklearn.utils.class_weight import compute_class_weight
 import matplotlib.colors as cols
 

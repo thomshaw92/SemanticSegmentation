@@ -18,7 +18,7 @@ from keras.optimizers import *
 import matplotlib.pyplot as plt
 
 # Directory Setup
-base_dir = "/home/simon/Documents/PhD/Data/Histo_Small/"
+base_dir = "./hippo_with_masks"
 train_dir = os.path.join(base_dir, "train")
 test_dir = os.path.join(base_dir, "test")
 X_dir = os.path.join(train_dir, "Img")
